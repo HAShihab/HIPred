@@ -1,0 +1,22 @@
+=head2 Fri Dec  2 19:59:56 2016: C<Module> L<Mozilla::CA|Mozilla::CA>
+
+=over 4
+
+=item *
+
+C<installed into: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20160104>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

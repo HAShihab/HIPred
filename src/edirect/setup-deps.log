@@ -1,0 +1,855 @@
+Sorry, we have to rerun the configuration dialog for CPAN.pm due to
+some missing parameters. Configuration will be written to
+ <</cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/CPAN/MyConfig.pm>>
+
+ <install_help>
+
+Warning: You do not have write permission for Perl library directories.
+
+To install modules, you need to configure a local Perl library directory or
+escalate your privileges.  CPAN can help you by bootstrapping the local::lib
+module or by configuring itself to use 'sudo' (if available).  You may also
+resolve this problem manually if you need to customize your setup.
+
+What approach do you want?  (Choose 'local::lib', 'sudo' or 'manual')
+ [manual] manual
+
+Your 'urllist' is already configured. Type 'o conf init urllist' to change it.
+
+Autoconfiguration complete.
+
+commit: wrote '/cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/CPAN/MyConfig.pm'
+
+You can re-run configuration any time with 'o conf init' in the CPAN shell
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/01mailrc.txt.gz
+Reading '/cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/sources/authors/01mailrc.txt.gz'
+............................................................................DONE
+Fetching with LWP:
+http://www.perl.org/CPAN/modules/02packages.details.txt.gz
+Reading '/cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/sources/modules/02packages.details.txt.gz'
+  Database was generated on Fri, 02 Dec 2016 12:53:25 GMT
+.............
+  New CPAN.pm version (v2.14) available.
+  [Currently running version is v2.11]
+  You might want to try
+    install CPAN
+    reload cpan
+  to both upgrade CPAN.pm and run the new version without leaving
+  the current session.
+
+
+...............................................................DONE
+Fetching with LWP:
+http://www.perl.org/CPAN/modules/03modlist.data.gz
+Reading '/cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/sources/modules/03modlist.data.gz'
+DONE
+Writing /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/Metadata
+Running get for module 'local::lib'
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/H/HA/HAARG/local-lib-2.000019.tar.gz
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/H/HA/HAARG/CHECKSUMS
+Checksum for /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/sources/authors/id/H/HA/HAARG/local-lib-2.000019.tar.gz ok
+'YAML' not installed, will not store persistent state
+Running install for module 'HTML::Tree'
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/C/CJ/CJM/HTML-Tree-5.03.tar.gz
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/C/CJ/CJM/CHECKSUMS
+Checksum for /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/sources/authors/id/C/CJ/CJM/HTML-Tree-5.03.tar.gz ok
+---- Unsatisfied dependencies detected during ----
+----         CJM/HTML-Tree-5.03.tar.gz        ----
+    Module::Build [build_requires]
+Running install for module 'Module::Build'
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/L/LE/LEONT/Module-Build-0.4220.tar.gz
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/L/LE/LEONT/CHECKSUMS
+Checksum for /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/sources/authors/id/L/LE/LEONT/Module-Build-0.4220.tar.gz ok
+Configuring L/LE/LEONT/Module-Build-0.4220.tar.gz with Makefile.PL
+# running Build.PL 
+
+Checking optional features...
+inc_bundling_support....disabled
+  requires:
+    ! inc::latest is not installed
+
+ERRORS/WARNINGS FOUND IN PREREQUISITES.  You may wish to install the versions
+of the modules indicated above before proceeding with this installation
+
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Module-Build' version '0.4220'
+  LEONT/Module-Build-0.4220.tar.gz
+  /usr/bin/perl Makefile.PL -- OK
+Running make for L/LE/LEONT/Module-Build-0.4220.tar.gz
+/usr/bin/perl.exe Build --makefile_env_macros 1
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::API" in podpath: using lib::Module::Build::API as replacement path to Module::Build::API
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "manifest" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "distcheck" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "skipcheck" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "PAR" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "PAR::Dist" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "manifest" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find ""http:" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Inline" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::API" in podpath: using lib::Module::Build::API as replacement path to Module::Build::API
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Compat" in podpath: using lib::Module::Build::Compat as replacement path to Module::Build::Compat
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Software::License" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "PL_files" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "File::ShareDir" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Signature" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "Module::Build::Compat" in podpath: using lib::Module::Build::Compat as replacement path to Module::Build::Compat
+Cannot find "Module::Build::API" in podpath: using lib::Module::Build::API as replacement path to Module::Build::API
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::API" in podpath: using lib::Module::Build::API as replacement path to Module::Build::API
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "YAML" in podpath: more than one possible replacement path to YAML, using CPAN::Meta::YAML
+Cannot find "CPANPLUS" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Install" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "inc::latest" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "inc::latest" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Devel::AssertOS::Unix" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "inc::latest" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::API" in podpath: using lib::Module::Build::API as replacement path to Module::Build::API
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::Compat" in podpath: using lib::Module::Build::Compat as replacement path to Module::Build::Compat
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::API" in podpath: using lib::Module::Build::API as replacement path to Module::Build::API
+Cannot find "Module::Build::ConfigData" in podpath: using lib::Module::Build::ConfigData as replacement path to Module::Build::ConfigData
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Building Module-Build
+  LEONT/Module-Build-0.4220.tar.gz
+  /usr/bin/make -- OK
+Running make test
+/usr/bin/perl.exe Build --makefile_env_macros 1 test
+t/00-compile.t ................. ok
+t/PL_files.t ................... ok
+t/actions/installdeps.t ........ ok
+t/actions/manifest_skip.t ...... ok
+t/add_property.t ............... ok
+t/add_property_array.t ......... ok
+t/add_property_hash.t .......... ok
+t/basic.t ...................... ok
+t/bundle_inc.t ................. skipped: $ENV{MB_TEST_EXPERIMENTAL} is not set
+t/compat.t ..................... ok
+t/compat/exit.t ................ ok
+t/debug.t ...................... ok
+t/destinations.t ............... ok
+t/ext.t ........................ ok
+t/extend.t ..................... ok
+t/files.t ...................... ok
+t/help.t ....................... ok
+t/install.t .................... ok
+t/install_extra_target.t ....... ok
+t/manifypods.t ................. ok
+t/manifypods_with_utf8.t ....... ok
+t/metadata.t ................... ok
+t/metadata2.t .................. ok
+t/mymeta.t ..................... ok
+t/new_from_context.t ........... ok
+t/notes.t ...................... ok
+t/par.t ........................ skipped: PAR::Dist 0.17 or up not installed to check .par's.
+t/parents.t .................... ok
+t/perl_mb_opt.t ................ ok
+t/pod_parser.t ................. ok
+In file included from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/op.h:635:0,
+                 from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/perl.h:3739,
+                 from lib/Simple.xs:2:
+/usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/reentr.h:104:26: fatal error: crypt.h: No such file or directory
+compilation terminated.
+error building lib/Simple.o from 'lib/Simple.c' at /usr/lib/perl5/5.22/ExtUtils/CBuilder/Base.pm line 173.
+# Looks like you planned 12 tests but ran 1.
+# Looks like your test exited with 2 just after 1.
+t/ppm.t ........................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 11/12 subtests 
+t/properties/dist_suffix.t ..... ok
+t/properties/license.t ......... ok
+t/properties/module_name.t ..... ok
+t/properties/needs_compiler.t .. ok
+t/properties/release_status.t .. ok
+t/properties/requires.t ........ ok
+t/properties/share_dir.t ....... ok
+t/resume.t ..................... ok
+t/runthrough.t ................. ok
+t/sample.t ..................... ok
+t/script_dist.t ................ ok
+t/signature.t .................. ok
+t/test_file_exts.t ............. ok
+t/test_reqs.t .................. ok
+t/test_type.t .................. ok
+t/test_types.t ................. ok
+t/tilde.t ...................... ok
+t/unit_run_test_harness.t ...... ok
+t/use_tap_harness.t ............ ok
+t/versions.t ................... ok
+t/write_default_maniskip.t ..... ok
+In file included from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/op.h:635:0,
+                 from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/perl.h:3739,
+                 from lib/Simple.xs:2:
+/usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/reentr.h:104:26: fatal error: crypt.h: No such file or directory
+compilation terminated.
+
+#   Failed test at t/xs.t line 43.
+#          got: 'error building lib/Simple.o from 'lib/Simple.c' at /usr/lib/perl5/5.22/ExtUtils/CBuilder/Base.pm line 173.
+# '
+#     expected: ''
+Can't locate loadable object for module Simple in @INC (@INC contains: /tmp/MB-hS23lxis/Simple/blib/arch /tmp/MB-hS23lxis/Simple/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/t/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/t/bundled /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P lib /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at -e line 0.
+Compilation failed in require.
+BEGIN failed--compilation aborted.
+
+#   Failed test at t/xs.t line 51.
+Can't locate loadable object for module Simple in @INC (@INC contains: /tmp/MB-hS23lxis/Simple/blib/arch /tmp/MB-hS23lxis/Simple/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/t/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/t/bundled /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P lib /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at -e line 0.
+Compilation failed in require.
+BEGIN failed--compilation aborted.
+
+#   Failed test at t/xs.t line 55.
+#                   ''
+#     doesn't match '(?^:ok$)'
+Can't locate loadable object for module Simple in @INC (@INC contains: /tmp/MB-hS23lxis/Simple/blib/arch /tmp/MB-hS23lxis/Simple/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/t/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/t/bundled /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P lib /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at -e line 0.
+Compilation failed in require.
+BEGIN failed--compilation aborted.
+
+#   Failed test at t/xs.t line 59.
+#                   ''
+#     doesn't match '(?^:0.01$)'
+Can't locate loadable object for module Simple in @INC (@INC contains: /tmp/MB-hS23lxis/Simple/blib/arch /tmp/MB-hS23lxis/Simple/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/t/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/t/bundled /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/Module-Build-0.4220-kMI13P lib /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at -e line 0.
+Compilation failed in require.
+BEGIN failed--compilation aborted.
+
+#   Failed test at t/xs.t line 63.
+#                   ''
+#     doesn't match '(?^:0.01$)'
+In file included from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/op.h:635:0,
+                 from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/perl.h:3739,
+                 from lib/Simple.xs:2:
+/usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/reentr.h:104:26: fatal error: crypt.h: No such file or directory
+compilation terminated.
+error building lib/Simple.o from 'lib/Simple.c' at /usr/lib/perl5/5.22/ExtUtils/CBuilder/Base.pm line 173.
+In file included from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/op.h:635:0,
+                 from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/perl.h:3739,
+                 from lib/Simple.xs:2:
+/usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/reentr.h:104:26: fatal error: crypt.h: No such file or directory
+compilation terminated.
+
+#   Failed test at t/xs.t line 96.
+#          got: 'error building lib/Simple.o from 'lib/Simple.c' at /usr/lib/perl5/5.22/ExtUtils/CBuilder/Base.pm line 173.
+# '
+#     expected: ''
+In file included from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/op.h:635:0,
+                 from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/perl.h:3739,
+                 from lib/Simple/With/Deep/Name.xs:2:
+/usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/reentr.h:104:26: fatal error: crypt.h: No such file or directory
+compilation terminated.
+
+#   Failed test at t/xs.t line 117.
+#          got: 'error building lib/Simple/With/Deep/Name.o from 'lib/Simple/With/Deep/Name.c' at /usr/lib/perl5/5.22/ExtUtils/CBuilder/Base.pm line 173.
+# '
+#     expected: ''
+In file included from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/op.h:635:0,
+                 from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/perl.h:3739,
+                 from lib/Simple.xs:2:
+/usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/reentr.h:104:26: fatal error: crypt.h: No such file or directory
+compilation terminated.
+
+#   Failed test at t/xs.t line 212.
+#          got: 'error building lib/Simple.o from 'lib/Simple.c' at /usr/lib/perl5/5.22/ExtUtils/CBuilder/Base.pm line 173.
+# '
+#     expected: ''
+In file included from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/op.h:635:0,
+                 from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/perl.h:3739,
+                 from lib/Simple.xs:2:
+/usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/reentr.h:104:26: fatal error: crypt.h: No such file or directory
+compilation terminated.
+# Looks like you failed 8 tests of 22.
+t/xs.t ......................... 
+Dubious, test returned 8 (wstat 2048, 0x800)
+Failed 8/22 subtests 
+
+Test Summary Report
+-------------------
+t/ppm.t                      (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 12 tests but ran 1.
+t/xs.t                       (Wstat: 2048 Tests: 22 Failed: 8)
+  Failed tests:  2-6, 12, 15, 20
+  Non-zero exit status: 8
+Files=53, Tests=1156, 847 wallclock secs ( 0.19 usr  0.59 sys + 69.54 cusr 272.82 csys = 343.14 CPU)
+Result: FAIL
+Failed 2/53 test programs. 8/1156 subtests failed.
+make: *** [Makefile:103: test] Error 8
+  LEONT/Module-Build-0.4220.tar.gz
+  /usr/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports LEONT/Module-Build-0.4220.tar.gz
+  CJM/HTML-Tree-5.03.tar.gz
+  Has already been unwrapped into directory /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/HTML-Tree-5.03-L7WCOm
+Warning: Prerequisite 'Module::Build => 0.2808' for 'CJM/HTML-Tree-5.03.tar.gz' failed when processing 'LEONT/Module-Build-0.4220.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Configuring C/CJ/CJM/HTML-Tree-5.03.tar.gz with Build.PL
+Can't locate Module/Build.pm in @INC (you may need to install the Module::Build module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at inc/My_Build.pm line 22.
+BEGIN failed--compilation aborted at inc/My_Build.pm line 22.
+Compilation failed in require at Build.PL line 4.
+BEGIN failed--compilation aborted at Build.PL line 4.
+Warning: No success on command[/usr/bin/perl Build.PL]
+  CJM/HTML-Tree-5.03.tar.gz
+  /usr/bin/perl Build.PL -- NOT OK
+Running install for module 'LWP::Protocol::https'
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/M/MS/MSCHILLI/CHECKSUMS
+Checksum for /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/sources/authors/id/M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz ok
+Configuring M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz with Makefile.PL
+Warning: prerequisite IO::Socket::SSL 1.54 not found.
+Warning: prerequisite Mozilla::CA 20110101 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for LWP::Protocol::https
+Writing MYMETA.yml and MYMETA.json
+  MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+  /usr/bin/perl Makefile.PL -- OK
+Running make for M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+---- Unsatisfied dependencies detected during ----
+----  MSCHILLI/LWP-Protocol-https-6.06.tar.gz ----
+    Mozilla::CA [requires]
+    IO::Socket::SSL [requires]
+Running install for module 'Mozilla::CA'
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/A/AB/ABH/Mozilla-CA-20160104.tar.gz
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/A/AB/ABH/CHECKSUMS
+Checksum for /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/sources/authors/id/A/AB/ABH/Mozilla-CA-20160104.tar.gz ok
+Configuring A/AB/ABH/Mozilla-CA-20160104.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Mozilla::CA
+Writing MYMETA.yml and MYMETA.json
+  ABH/Mozilla-CA-20160104.tar.gz
+  /usr/bin/perl Makefile.PL -- OK
+Running make for A/AB/ABH/Mozilla-CA-20160104.tar.gz
+cp lib/Mozilla/CA/cacert.pem blib/lib/Mozilla/CA/cacert.pem
+cp mk-ca-bundle.pl blib/lib/Mozilla/mk-ca-bundle.pl
+cp lib/Mozilla/CA.pm blib/lib/Mozilla/CA.pm
+Manifying 1 pod document
+  ABH/Mozilla-CA-20160104.tar.gz
+  /usr/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/bin/perl.exe" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/locate-file.t .. ok
+All tests successful.
+Files=1, Tests=3,  1 wallclock secs ( 0.03 usr  0.17 sys +  0.03 cusr  0.23 csys =  0.47 CPU)
+Result: PASS
+  ABH/Mozilla-CA-20160104.tar.gz
+  /usr/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+Installing /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/Mozilla/CA.pm
+Installing /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/Mozilla/mk-ca-bundle.pl
+Installing /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/Mozilla/CA/cacert.pem
+Installing /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/man/man3/Mozilla.CA.3pm
+Appending installation info to /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi/perllocal.pod
+  ABH/Mozilla-CA-20160104.tar.gz
+  /usr/bin/make install  -- OK
+Running install for module 'IO::Socket::SSL'
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/S/SU/SULLR/IO-Socket-SSL-2.039.tar.gz
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/S/SU/SULLR/CHECKSUMS
+Checksum for /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/sources/authors/id/S/SU/SULLR/IO-Socket-SSL-2.039.tar.gz ok
+Configuring S/SU/SULLR/IO-Socket-SSL-2.039.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Warning: prerequisite Net::SSLeay 1.46 not found.
+Generating a Unix-style Makefile
+Writing Makefile for IO::Socket::SSL
+Writing MYMETA.yml and MYMETA.json
+  SULLR/IO-Socket-SSL-2.039.tar.gz
+  /usr/bin/perl Makefile.PL -- OK
+Running make for S/SU/SULLR/IO-Socket-SSL-2.039.tar.gz
+---- Unsatisfied dependencies detected during ----
+----     SULLR/IO-Socket-SSL-2.039.tar.gz     ----
+    Net::SSLeay [requires]
+Running install for module 'Net::SSLeay'
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/M/MI/MIKEM/Net-SSLeay-1.78.tar.gz
+Fetching with LWP:
+http://www.perl.org/CPAN/authors/id/M/MI/MIKEM/CHECKSUMS
+Checksum for /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/sources/authors/id/M/MI/MIKEM/Net-SSLeay-1.78.tar.gz ok
+Configuring M/MI/MIKEM/Net-SSLeay-1.78.tar.gz with Makefile.PL
+*** Found OpenSSL-1.0.2j installed in /usr
+*** Be sure to use the same compiler and options to compile your OpenSSL, perl,
+    and Net::SSLeay. Mixing and matching compilers is not supported.
+Do you want to run external tests?
+These tests *will* *fail* if you do not have network connectivity. [n] n
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Net::SSLeay
+Writing MYMETA.yml and MYMETA.json
+  MIKEM/Net-SSLeay-1.78.tar.gz
+  /usr/bin/perl Makefile.PL -- OK
+Running make for M/MI/MIKEM/Net-SSLeay-1.78.tar.gz
+cp lib/Net/SSLeay.pod blib/lib/Net/SSLeay.pod
+cp lib/Net/SSLeay/Handle.pm blib/lib/Net/SSLeay/Handle.pm
+cp lib/Net/SSLeay.pm blib/lib/Net/SSLeay.pm
+AutoSplitting blib/lib/Net/SSLeay.pm (blib/lib/auto/Net/SSLeay)
+blib/lib/Net/SSLeay.pm: some names are not unique when truncated to 8 characters:
+ directory blib/lib/auto/Net/SSLeay:
+  do_https3.al, do_https2.al, do_https4.al, do_https.al truncate to do_https
+  do_httpx3.al, do_httpx2.al, do_httpx4.al truncate to do_httpx
+  get_https.al, get_https3.al, get_https4.al, get_http.al, get_http3.al, get_http4.al, get_httpx.al, get_httpx3.al, get_httpx4.al truncate to get_http
+  head_https.al, head_https3.al, head_https4.al, head_http.al, head_http3.al, head_http4.al, head_httpx.al, head_httpx3.al, head_httpx4.al truncate to head_htt
+  post_https.al, post_https3.al, post_https4.al, post_http.al, post_http3.al, post_http4.al, post_httpx.al, post_httpx3.al, post_httpx4.al truncate to post_htt
+  put_https.al, put_https3.al, put_https4.al, put_http.al, put_http3.al, put_http4.al, put_httpx.al, put_httpx3.al, put_httpx4.al truncate to put_http
+  ssl_read_all.al, ssl_read_until.al, ssl_read_CRLF.al truncate to ssl_read
+  ssl_write_all.al, ssl_write_CRLF.al truncate to ssl_writ
+  tcp_read_all.al, tcp_read_until.al, tcp_read_CRLF.al truncate to tcp_read
+  tcp_write_all.al, tcp_write_CRLF.al truncate to tcp_writ
+Running Mkbootstrap for Net::SSLeay ()
+chmod 644 "SSLeay.bs"
+"/usr/bin/perl.exe" "-Iinc" "/usr/lib/perl5/5.22/ExtUtils/xsubpp"  -typemap "/usr/lib/perl5/5.22/ExtUtils/typemap" -typemap "typemap"  SSLeay.xs > SSLeay.xsc && mv SSLeay.xsc SSLeay.c
+gcc -c  -I/usr/include -DPERL_USE_SAFE_PUTENV -D_GNU_SOURCE -U__STRICT_ANSI__ -ggdb -O2 -pipe -Wimplicit-function-declaration -fdebug-prefix-map=/mnt/share/maint/perl.x86_64/build=/usr/src/debug/perl-5.22.2-1 -fdebug-prefix-map=/mnt/share/maint/perl.x86_64/src/perl-5.22.2=/usr/src/debug/perl-5.22.2-1 -fwrapv -fno-strict-aliasing -fstack-protector-strong -D_FORTIFY_SOURCE=2 -DUSEIMPORTLIB -O3   -DVERSION=\"1.78\" -DXS_VERSION=\"1.78\"  "-I/usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE"   SSLeay.c
+In file included from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/op.h:635:0,
+                 from /usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/perl.h:3739,
+                 from SSLeay.xs:141:
+/usr/lib/perl5/5.22/x86_64-cygwin-threads/CORE/reentr.h:104:26: fatal error: crypt.h: No such file or directory
+compilation terminated.
+make: *** [Makefile:356: SSLeay.o] Error 1
+  MIKEM/Net-SSLeay-1.78.tar.gz
+  /usr/bin/make -- NOT OK
+  SULLR/IO-Socket-SSL-2.039.tar.gz
+  Has already been unwrapped into directory /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_
+  SULLR/IO-Socket-SSL-2.039.tar.gz
+  Has already been prepared
+Running make for S/SU/SULLR/IO-Socket-SSL-2.039.tar.gz
+Warning: Prerequisite 'Net::SSLeay => 1.46' for 'SULLR/IO-Socket-SSL-2.039.tar.gz' failed when processing 'MIKEM/Net-SSLeay-1.78.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+cp lib/IO/Socket/SSL/PublicSuffix.pm blib/lib/IO/Socket/SSL/PublicSuffix.pm
+cp lib/IO/Socket/SSL/Intercept.pm blib/lib/IO/Socket/SSL/Intercept.pm
+cp lib/IO/Socket/SSL.pod blib/lib/IO/Socket/SSL.pod
+cp lib/IO/Socket/SSL.pm blib/lib/IO/Socket/SSL.pm
+cp lib/IO/Socket/SSL/Utils.pm blib/lib/IO/Socket/SSL/Utils.pm
+Manifying 4 pod documents
+  SULLR/IO-Socket-SSL-2.039.tar.gz
+  /usr/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/bin/perl.exe" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t t/external/*.t
+
+#   Failed test 'loaded'
+#   at t/01loadmodule.t line 8.
+Undefined subroutine &Net::SSLeay::OPENSSL_VERSION_NUMBER called at t/01loadmodule.t line 10.
+# Looks like you planned 3 tests but ran 1.
+# Looks like you failed 1 test of 1 run.
+# Looks like your test exited with 2 just after 1.
+t/01loadmodule.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 3/3 subtests 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+BEGIN failed--compilation aborted at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+Compilation failed in require at t/acceptSSL-timeout.t line 4.
+BEGIN failed--compilation aborted at t/acceptSSL-timeout.t line 4.
+t/acceptSSL-timeout.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/alpn.t line 7.
+BEGIN failed--compilation aborted at t/alpn.t line 7.
+t/alpn.t .......................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/auto_verify_hostname.t line 5.
+BEGIN failed--compilation aborted at t/auto_verify_hostname.t line 5.
+t/auto_verify_hostname.t .......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+BEGIN failed--compilation aborted at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+Compilation failed in require at t/cert_formats.t line 4.
+BEGIN failed--compilation aborted at t/cert_formats.t line 4.
+t/cert_formats.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/cert_no_file.t line 16.
+BEGIN failed--compilation aborted at t/cert_no_file.t line 16.
+t/cert_no_file.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+BEGIN failed--compilation aborted at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+Compilation failed in require at t/compatibility.t line 7.
+BEGIN failed--compilation aborted at t/compatibility.t line 7.
+t/compatibility.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+BEGIN failed--compilation aborted at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+Compilation failed in require at t/connectSSL-timeout.t line 3.
+BEGIN failed--compilation aborted at t/connectSSL-timeout.t line 3.
+t/connectSSL-timeout.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/core.t line 7.
+BEGIN failed--compilation aborted at t/core.t line 7.
+t/core.t .......................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/dhe.t line 9.
+BEGIN failed--compilation aborted at t/dhe.t line 9.
+t/dhe.t ........................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/ecdhe.t line 7.
+BEGIN failed--compilation aborted at t/ecdhe.t line 7.
+t/ecdhe.t ......................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+BEGIN failed--compilation aborted at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+Compilation failed in require at t/external/ocsp.t line 6.
+BEGIN failed--compilation aborted at t/external/ocsp.t line 6.
+t/external/ocsp.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+BEGIN failed--compilation aborted at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+Compilation failed in require at t/external/usable_ca.t line 4.
+BEGIN failed--compilation aborted at t/external/usable_ca.t line 4.
+t/external/usable_ca.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/io-socket-inet6.t line 14.
+BEGIN failed--compilation aborted at t/io-socket-inet6.t line 14.
+t/io-socket-inet6.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/io-socket-ip.t line 10.
+BEGIN failed--compilation aborted at t/io-socket-ip.t line 10.
+t/io-socket-ip.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/memleak_bad_handshake.t line 7.
+BEGIN failed--compilation aborted at t/memleak_bad_handshake.t line 7.
+t/memleak_bad_handshake.t ......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/mitm.t line 5.
+BEGIN failed--compilation aborted at t/mitm.t line 5.
+t/mitm.t .......................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/nonblock.t line 8.
+BEGIN failed--compilation aborted at t/nonblock.t line 8.
+t/nonblock.t ...................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/npn.t line 7.
+BEGIN failed--compilation aborted at t/npn.t line 7.
+t/npn.t ........................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+BEGIN failed--compilation aborted at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+Compilation failed in require at t/plain_upgrade_downgrade.t line 4.
+BEGIN failed--compilation aborted at t/plain_upgrade_downgrade.t line 4.
+t/plain_upgrade_downgrade.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+BEGIN failed--compilation aborted at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+Compilation failed in require at t/protocol_version.t line 7.
+BEGIN failed--compilation aborted at t/protocol_version.t line 7.
+t/protocol_version.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/public_suffix_lib_encode_idn.t .. ok
+t/public_suffix_lib_libidn.t ...... ok
+t/public_suffix_lib_uri.t ......... ok
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+BEGIN failed--compilation aborted at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+Compilation failed in require at t/public_suffix_ssl.t line 3.
+BEGIN failed--compilation aborted at t/public_suffix_ssl.t line 3.
+t/public_suffix_ssl.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/readline.t line 16.
+BEGIN failed--compilation aborted at t/readline.t line 16.
+t/readline.t ...................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+BEGIN failed--compilation aborted at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+Compilation failed in require at t/session_ticket.t line 3.
+BEGIN failed--compilation aborted at t/session_ticket.t line 3.
+t/session_ticket.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/sessions.t line 7.
+BEGIN failed--compilation aborted at t/sessions.t line 7.
+t/sessions.t ...................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/signal-readline.t line 5.
+BEGIN failed--compilation aborted at t/signal-readline.t line 5.
+t/signal-readline.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/sni.t line 5.
+BEGIN failed--compilation aborted at t/sni.t line 5.
+t/sni.t ........................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/sni_verify.t line 5.
+BEGIN failed--compilation aborted at t/sni_verify.t line 5.
+t/sni_verify.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+BEGIN failed--compilation aborted at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+Compilation failed in require at t/start-stopssl.t line 6.
+BEGIN failed--compilation aborted at t/start-stopssl.t line 6.
+t/start-stopssl.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/startssl-failed.t line 5.
+BEGIN failed--compilation aborted at t/startssl-failed.t line 5.
+t/startssl-failed.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/startssl.t line 7.
+BEGIN failed--compilation aborted at t/startssl.t line 7.
+t/startssl.t ...................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/sysread_write.t line 11.
+BEGIN failed--compilation aborted at t/sysread_write.t line 11.
+t/sysread_write.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+BEGIN failed--compilation aborted at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+Compilation failed in require at t/verify_fingerprint.t line 4.
+BEGIN failed--compilation aborted at t/verify_fingerprint.t line 4.
+t/verify_fingerprint.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at t/verify_hostname.t line 5.
+BEGIN failed--compilation aborted at t/verify_hostname.t line 5.
+t/verify_hostname.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate Net/SSLeay.pm in @INC (you may need to install the Net::SSLeay module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+BEGIN failed--compilation aborted at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/IO-Socket-SSL-2.039-GxSEo_/blib/lib/IO/Socket/SSL.pm line 19.
+Compilation failed in require at t/verify_hostname_standalone.t line 4.
+BEGIN failed--compilation aborted at t/verify_hostname_standalone.t line 4.
+t/verify_hostname_standalone.t .... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/01loadmodule.t                (Wstat: 512 Tests: 1 Failed: 1)
+  Failed test:  1
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 3 tests but ran 1.
+t/acceptSSL-timeout.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/alpn.t                        (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/auto_verify_hostname.t        (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/cert_formats.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/cert_no_file.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/compatibility.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/connectSSL-timeout.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/core.t                        (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/dhe.t                         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/ecdhe.t                       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/external/ocsp.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/external/usable_ca.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/io-socket-inet6.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/io-socket-ip.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/memleak_bad_handshake.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/mitm.t                        (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/nonblock.t                    (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/npn.t                         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/plain_upgrade_downgrade.t     (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/protocol_version.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/public_suffix_ssl.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/readline.t                    (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/session_ticket.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/sessions.t                    (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/signal-readline.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/sni.t                         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/sni_verify.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/start-stopssl.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/startssl-failed.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/startssl.t                    (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/sysread_write.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/verify_fingerprint.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/verify_hostname.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/verify_hostname_standalone.t  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=38, Tests=238, 20 wallclock secs ( 0.20 usr  0.42 sys +  1.14 cusr  5.40 csys =  7.17 CPU)
+Result: FAIL
+Failed 35/38 test programs. 1/238 subtests failed.
+make: *** [Makefile:879: test_dynamic] Error 2
+  SULLR/IO-Socket-SSL-2.039.tar.gz
+one dependency not OK (Net::SSLeay); additionally test harness failed
+  /usr/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports SULLR/IO-Socket-SSL-2.039.tar.gz
+  MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+  Has already been unwrapped into directory /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/LWP-Protocol-https-6.06-QXOkV8
+  MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+  Has already been prepared
+Running make for M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+Warning: Prerequisite 'IO::Socket::SSL => 1.54' for 'MSCHILLI/LWP-Protocol-https-6.06.tar.gz' failed when processing 'SULLR/IO-Socket-SSL-2.039.tar.gz' with 'make_test => NO one dependency not OK (Net::SSLeay); additionally test harness failed'. Continuing, but chances to succeed are limited.
+cp lib/LWP/Protocol/https.pm blib/lib/LWP/Protocol/https.pm
+Manifying 1 pod document
+  MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+  /usr/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/bin/perl.exe" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+
+#   Failed test at t/apache.t line 15.
+
+#   Failed test at t/apache.t line 18.
+#                   'LWP will support https URLs if the LWP::Protocol::https module
+# is installed.
+# '
+#     doesn't match '(?^:Apache Software Foundation)'
+
+#   Failed test at t/apache.t line 25.
+# Looks like you failed 3 tests of 5.
+t/apache.t ....... 
+Dubious, test returned 3 (wstat 768, 0x300)
+Failed 3/5 subtests 
+Can't locate IO/Socket/SSL.pm in @INC (you may need to install the IO::Socket::SSL module)) at /usr/lib/perl5/vendor_perl/5.22/Net/HTTPS.pm line 27.
+Can't locate Net/SSL.pm in @INC (you may need to install the Net::SSL module) (@INC contains: /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/LWP-Protocol-https-6.06-QXOkV8/blib/lib /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/LWP-Protocol-https-6.06-QXOkV8/blib/arch /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5/cygwin-thread-multi /cygdrive/c/Users/s449254/Desktop/hipred/edirect/aux/lib/perl5 /usr/lib/perl5/site_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/site_perl/5.22 /usr/lib/perl5/vendor_perl/5.22/x86_64-cygwin-threads /usr/lib/perl5/vendor_perl/5.22 /usr/lib/perl5/5.22/x86_64-cygwin-threads /usr/lib/perl5/5.22 .) at /usr/lib/perl5/vendor_perl/5.22/Net/HTTPS.pm line 31.
+Compilation failed in require at /cygdrive/c/Users/s449254/Desktop/hipred/edirect/_cpan/build/LWP-Protocol-https-6.06-QXOkV8/blib/lib/LWP/Protocol/https.pm line 8.
+Compilation failed in require at t/https_proxy.t line 14.
+BEGIN failed--compilation aborted at t/https_proxy.t line 14.
+t/https_proxy.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/apache.t     (Wstat: 768 Tests: 5 Failed: 3)
+  Failed tests:  1, 3-4
+  Non-zero exit status: 3
+t/https_proxy.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=2, Tests=5,  3 wallclock secs ( 0.03 usr  0.17 sys +  0.28 cusr  1.12 csys =  1.61 CPU)
+Result: FAIL
+Failed 2/2 test programs. 3/5 subtests failed.
+make: *** [Makefile:852: test_dynamic] Error 2
+  MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+one dependency not OK (IO::Socket::SSL); additionally test harness failed
+  /usr/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports MSCHILLI/LWP-Protocol-https-6.06.tar.gz
